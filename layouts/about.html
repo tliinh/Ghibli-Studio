@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli Studio </title>
+    <script href="./layouts/main.js"></script>
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/icon/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+</head>
+<body>
+    
+    <div id="main">
+        <!--Begin Header-->
+        <div id="header">
+            <div class="header__logo">
+                <img src="https://i.pinimg.com/564x/f8/33/5b/f8335b67ce15d3e1e8da4e70a7922fd0.jpg" class="header__logo-img">
+            </div>
+            <div>
+                <ul id="nav"> <!--ul#nav>li*5>a-->
+                <li><a href="index.html">Home</a></li>
+               
+                <li >
+                    <a href="">Film genre
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="family.html" target="_blank">Family</a></li>
+                        <li><a href="romance.html" target="_blank">Romance</a></li>
+                        <li><a href="adventure.html" target="_blank">Adventure</a></li>
+                        <li><a href="war.html" target="_blank">War</a></li>
+                        <li><a href="drama.html" target="_blank">Drama</a></li>
+                        <li><a href="fantasy.html" target="blank">Fantasy</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html" class=""> ABOUT </a></li>
+                <!-- <li>
+                    <a href="">
+                        Watchlist
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">.</a></li>
+                        <li><a href="">.</a></li>
+                        <li><a href="">.</a></li>
+                    </ul>
+                </li> -->
+            </ul>
+            </div>
+            
+            
+            <div class="search-btn">
+                <div class="search-icon fa fa-magnifying-glass"></div>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class="text-content"> 
+             <!-- <marquee scrollamount="7" class="text-heading">Welcome to Studio Ghibli</marquee> -->
+             <!-- <div class="text-description">The atmosphere in New York is lorem ipsum.</div>  -->
+             </div>
+        </div>
+
+        <div id="content">
+            <!--About section-->
+             <div class="content-section">
+                 <h2 class="section-heading">ABOUT STUDIO GHIBLI</h2>
+                 <p class="section-sub-heading">...</p>
+                 <p class="about-text">
+                    Studio Ghibli is one of the most acclaimed and influential animation studios in the world, inspiring filmmakers and audiences alike over the last 30 years with beloved stories and breathtaking visuals. Under the brilliance of visionary animation directors Hayao Miyazaki and Isao Takahata, and producer Toshio Suzuki, the studio’s films are known for timeless classics such as My Neighbor Totoro, Kiki’s Delivery Service, and Ponyo; and have won countless international awards including an Academy Award for Best Animated Feature for Spirited Away and The Boy and the Heron, as well as five additional Oscar® nominations for Howl’s Moving Castle, The Wind Rises, The Tale of The Princess Kaguya, When Marnie Was There, and The Red Turtle. Director and studio co-founder Hayao Miyazaki was separately given an Honorary Award at the Academy of Motion Picture Arts and Sciences’ Governors Awards in 2014, and the Academy Museum of Motion Pictures paid tribute to his artwork with a special exhibit when the Museum opened in September 2021.
+                </p> 
+                
+                
+            <br>
+            </div>
+            <div class="about_img">
+                <img class="about_img" src="https://i.pinimg.com/originals/8a/54/2e/8a542ee3f1438a247a1675184569682a.jpg">
+            </div>
+        </div>
+            <!--Contact-->
+            
+        </div>
+
+        <div id="footer">
+            <div class="end_footer">
+                <ul class="end_footer-about" >
+                    <h3>ABOUT</h3> 
+                    <li><a href="about.html">Studio Ghibli</a></li>
+                    <li><a href="https://ghiblicollection.com/pages/faqs">FAQs</a></li>
+                    <li><a href="https://ghiblicollection.com/pages/contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- <div class="end_footer">
+                <ul class="end_footer-inf"> 
+                    <h3>INFORMATION</h3>
+                    <li><a>Filmography</a></li>
+                    <li><a>In Theaters</a></li>
+                    <li><a>Shop</a></li>
+                </ul>
+            </div> -->
+            <div class="end_footer">
+                <ul class="end_footer-contact">
+                    <h3>NEWSLETTER SIGN UP</h3> 
+                    <li><a>Sign up for exclusive updates, new arrivals & insider only discounts</a></li>
+                    <input type="text" id="fname" name="fname" value="enter your email address" >
+                        <button> Submit</button> 
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="fa fa-xmark"></i>
+            </div>
+            <header class="modal-header">
+                <i class="model-heading-icon fa-solid fa-suitcase">
+                    Tickets
+                </i>
+            </header>
+
+            <div class="modal-body">
+                <label for="ticket-quantity" class="modal-label">
+                    <i class="fa fa-cart-shopping"></i>
+                    Tickets, $15 per person
+                </label>
+                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+                <label for="ticket-email" class="modal-label">
+                    <label for="" class="modal-label">
+                    <i class="fa-solid fa-user"></i>
+                    Send to
+                </label>
+                <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email">
+
+                <button id="buy-ticket">
+                    PAY <i class="fa fa-check"></i>
+                </button>
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </footer>
+        </div>
+    </div> -->
+</body>
+</html>
